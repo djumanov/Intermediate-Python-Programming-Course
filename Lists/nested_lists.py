@@ -17,3 +17,11 @@ print(L[-3][-1])
 # Prints ['eee', 'fff']
 print(L[-3][-1][-2])
 # Prints eee
+
+
+# Change Nested List Item Value
+
+L = ['a', ['bb', 'cc'], 'd']
+L[1][1] = 0
+print(L)
+# Prints ['a', ['bb', 0], 'd']
