@@ -22,4 +22,3 @@ D['name'] = 'xx'
 # L reflects changes done to dict D
 print(L)
 # Prints dict_items([('age', 25), ('name', 'xx')])
-
